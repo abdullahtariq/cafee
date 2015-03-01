@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+
+	.hidden-sm {
+		display: none;
+	}
+	.cart-shipping{
+		padding: 8px 0;
+	}
+	.col-md-5.cart-shipping > span {
+    left: 70px;
+	}
+	.cart-image{
+		left: 73px;
+	}
+	.top-buy-now{
+		left: -55px;
+		position: relative;
+	}	
+	.top-header{
+		height: 334px;
+	}
+	.pattren-1,.pattren-2,.pattren-3{
+		width: 95%;
+		margin: 0 auto;
+	}
+	.shop-now-details{
+		padding: 0;
+	}
+	.join-us{
+		width: 259px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 1022px) {
+	.join-us{
+		width: 259px;
+		margin: 0 auto;
+	}
+}

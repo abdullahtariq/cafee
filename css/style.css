@@ -1,0 +1,281 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background: url("../images/header-bg.jpg") repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+    height: 271px;
+}
+.login{
+    color: #000;
+    font-size: 14px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+.icon-bar{
+    background: #fff;
+}
+.top-social{
+    margin: 5px 5px;
+}
+.top-dripping{
+    margin: 5px;
+}
+.login-register-right{
+    width: 48%;
+}
+.login-register-left{
+    width: 48%;
+}
+.top-search{
+    border: 1px solid #905B16;
+    background: #905B16;
+    opacity: 0.8;
+    border-radius: 25px;
+    width: 80%;
+    height: 30px;}
+nav.navbar{
+    background: none repeat scroll 0 0 #512303;
+    border-radius: unset;
+    z-index:1;
+}
+nav.navbar .container{
+    padding-bottom: 10px;
+}
+.navbar-nav > li > a {
+     color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.nav > li > a:focus, .nav > li > a:hover{
+    background-color: transparent;
+}
+.col-md-5.cart-shipping > span {
+        font-size: 16px;
+    font-weight: bold;
+    left: 82px;
+    margin: 0 10px;
+    position: relative;
+    display: inline;
+    float: left;
+}
+.cart-image{
+    position: relative;
+    float: left;
+    left: 83px;
+}
+.top-buy-now{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.top-tagline{
+    left: -40px;
+    position: relative;
+    top: 20px;
+}
+.top-header > .container{
+ padding: 15px 0;
+}
+.main-body{
+     background: url("../images/body-content-bg.jpg") repeat scroll center top rgba(0, 0, 0, 0);
+     padding: 8px;
+}
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+.navbar .container{
+    padding-top: 10px;
+}
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.caffee-content-detail p{
+    color: #512303;
+    font-size: 19px;
+    font-weight: bold;
+}
+.shop-now-title{
+    border-bottom: 1px solid #512303;
+    color: #512303;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 18px 5px;
+}
+.shop-now-details{
+    padding: 0 22px;
+    margin: 80px 0;
+
+}
+.shop-now-details h3{
+  background: none repeat scroll 0 0 #caa750;
+    color: #512303;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0;
+    margin-bottom: 0;
+    text-align: center;
+    box-shadow: 0px 5px 5px 0px #000000;
+}
+.shop-now-details p{
+  background: #D5BC6D;
+   font-size: 16px;
+    padding: 10px 8px;
+    margin: 0px;
+    box-shadow: 0px 5px 5px 0px #000000;
+}
+.shop-now-type{
+    color: #000;
+    display: block;
+    font-weight: bolder;
+    padding-top: 5px;  
+}
+.roasted-price{
+    display: inline-block;
+    font-size: 16px;
+color: #512303;
+font-weight: bold;
+ margin: 0 30px 0 0;
+}
+.roasted-cart{
+    padding: 0;
+}
+.pattren-1 img ,.pattren-2 img ,.pattren-3 img {
+    padding-top: 0px;
+}
+.pattren-1{
+    background: url('../images/vilasita-bg.jpg') no-repeat scroll top center;
+      min-height: 205px;
+     
+
+}
+.pattren-2{
+    background: url('../images/asmaro-bg.jpg') no-repeat scroll top center;
+     min-height: 205px;
+}
+.pattren-3{
+    background: url('../images/raro-bg.jpg') no-repeat scroll top center;
+      min-height: 205px;
+
+ 
+}
+.pattren-4{
+    background: url('../images/bottom-body-bg1.jpg') no-repeat scroll top center;
+      min-height: 286px;
+
+ 
+}
+
+.pattren-5{
+    background: url('../images/bottom-body-bg2.jpg') no-repeat scroll top center;
+      min-height: 286px;
+
+ 
+}
+.pattren-6{
+    background: url('../images/bottom-body-bg3.jpg') no-repeat scroll top center;
+      min-height: 286px;
+
+ 
+}
+.join-us h3{
+     border-bottom: 1px solid #512303;
+    color: #512303;
+    font-weight: bold;
+    padding: 0 10px;
+    position: relative;
+}
+.join-us h4{
+    color: #fff;
+    padding: 5px;
+}
+.join-us p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.white-text h3{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.join-us .roasted-price{
+color: #fff;
+    margin: 0 25px 0 0;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.join-us .roasted-price select{
+    color:#512303;
+}
+.footer-details h2{
+color: #512303;
+    font-weight: bold;
+}
+.footer-details ul{
+list-style-type: none;
+}
+.footer-details ul li{
+color: #512303;
+    font-size: 18px;
+    font-weight: bold;
+}
+.support a,h4{
+    font-size: 16px;
+color: #512303;
+font-weight: bold;
+}
+
+#carousel-accesories{
+    height: 250px;
+}
+#carousel-accesories .carousel-caption{
+    width: 92%;
+    left: 4%;
+    background: none repeat scroll 0 0 #eee;
+     padding-top: 0;
+     padding-bottom: 0;
+     bottom: 0;
+}
+#carousel-accesories .roasted-price{
+    margin: 0 10px 0 0;
+    color: #512303;
+}
+#carousel-example-generic{
+    max-height: 350px;
+    overflow: hidden;
+}
+#carousel-joinus .item{
+    height: 240px;
+}
+#carousel-joinus .item .carousel-caption{
+    width: 100%;
+    left: 6px;
+    font-size: 16px;
+    font-weight: bold;
+   bottom: 5px;
+}
+footer{
+    background: url('../images/footer-bg.jpg') no-repeat scroll top center / cover rgba(0, 0, 0, 0);
+}
+body{
+    background: url("../images/body-bg.jpg") no-repeat scroll top center / cover rgba(0, 0, 0, 0);
+}
+footer {
+    padding: 30px 0;
+}
+
+@media(min-width:768px) {
+   
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
