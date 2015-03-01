@@ -10,7 +10,7 @@
 }
 .top-header{
     background: url("../images/header-bg.jpg") repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
-    height: 287px;
+    height: 271px;
 }
 .login{
     color: #000;
@@ -43,6 +43,7 @@
 nav.navbar{
     background: none repeat scroll 0 0 #512303;
     border-radius: unset;
+    z-index:1;
 }
 nav.navbar .container{
     padding-bottom: 10px;
@@ -112,7 +113,7 @@ nav.navbar .container{
 }
 .shop-now-details{
     padding: 0 22px;
-    margin: 50px 0;
+    margin: 80px 0;
 
 }
 .shop-now-details h3{
@@ -146,10 +147,10 @@ font-weight: bold;
  margin: 0 30px 0 0;
 }
 .roasted-cart{
-    padding: 0px !important ;
+    padding: 0;
 }
 .pattren-1 img ,.pattren-2 img ,.pattren-3 img {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 .pattren-1{
     background: url('../images/vilasita-bg.jpg') no-repeat scroll top center;
@@ -183,8 +184,9 @@ font-weight: bold;
 .pattren-6{
     background: url('../images/bottom-body-bg3.jpg') no-repeat scroll top center;
       min-height: 286px;
-}
 
+ 
+}
 .join-us h3{
      border-bottom: 1px solid #512303;
     color: #512303;
@@ -195,6 +197,11 @@ font-weight: bold;
 .join-us h4{
     color: #fff;
     padding: 5px;
+}
+.join-us p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
 }
 .white-text h3{
     color: #fff;
@@ -271,58 +278,4 @@ footer {
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
-}
-
-.shop-now-cart {
-    text-align: center;
-}
-
-.read-more {
-    padding-left: 70px;
-    padding-top: 13px;
-}
-
-.connect-us-whatsapp-img{
-    float: left; 
-    padding-left: 25px; 
-    padding-top: 15px; 
-    padding-right: 15px;
-}
-
-.whatsapp-detail
-{
-    font-weight: bold; 
-    color: rgb(255, 255, 255); 
-    font-size: 19px; 
-    line-height: 10px; 
-    padding-top: 20px; 
-    margin-bottom: 40px;
-}
-
-.connect-us-facebook-img
-{
-    float: left; 
-    margin-left: 10px; 
-    margin-right: 10px;
-}
-
-.connect-us-twitter
-{
-    margin-top: 45px;
-}
-
-.span-subscribe{
-    clear: both;
-    color: #fff;
-    float: left;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 20px 12px 12px;
-}
-
-.span-subscribe textarea{
-    height: 25px;
-    width: 55%;
-    float: left;
-    margin-right: 5px;
 }
